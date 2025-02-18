@@ -1,0 +1,13 @@
+*
+!*/
+!*.json
+!*.pdf
+!*.docx
+!*.txt
+!*.md
+!*.c
+!*.h
+!*.cpp
+!.gitignore
+
+build/
