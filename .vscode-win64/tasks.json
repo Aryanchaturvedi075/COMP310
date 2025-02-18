@@ -4,14 +4,14 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:/Users/Public/tools/w64devkit/bin/g++.exe'",
+            "command": "C:/Users/Public/tools/w64devkit/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-Wall",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "win64: Intellisense for C/C++",
+            "name": "Win64",
             "includePath": [
                 "C:/Users/Public/tools/w64devkit/include",
                 "${workspaceFolder}/**"
