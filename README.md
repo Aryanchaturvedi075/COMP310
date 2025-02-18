@@ -13,6 +13,10 @@ If the scripts don't work for any reason, you can manually switch your environme
 
 For example, to switch to WSL:
 ```bash
-mv .vscode .vscode-win64  # assuming you were using Windows
 mv .vscode-wsl .vscode
+```
+
+Remember to always switch back to before committing any changes:
+```bash
+mv .vscode .vscode-wsl
 ```
