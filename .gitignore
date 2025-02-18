@@ -1,6 +1,5 @@
 *
 !*/
-!*.json
 !*.pdf
 !*.docx
 !*.txt
@@ -10,4 +9,5 @@
 !*.cpp
 !.gitignore
 
+.vscode*/
 build/
