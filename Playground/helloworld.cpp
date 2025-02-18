@@ -1,7 +1,9 @@
 #include <iostream>
 
 int main() {
-    int count = 0;
-    std::cout << "Hello, World!" << count << std::endl;
+    std::string name;
+    std::cout << "Please enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello " << name << "!" << std::endl;
     return 0;
 }
