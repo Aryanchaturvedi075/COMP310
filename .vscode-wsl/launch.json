@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "wsl: gdb Debug",
+            "name": "C/C++: g++-14 build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}",
@@ -21,5 +21,5 @@
             }]
         }
     ],
-    "preLaunchTask": "g++-14 Build"
+    "preLaunchTask": "C/C++: g++-14 build active file"
 }

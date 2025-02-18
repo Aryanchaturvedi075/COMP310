@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mimi: gdb Debug",
+            "name": "C/C++: g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}",
@@ -21,5 +21,5 @@
             }]
         }
     ],
-    "preLaunchTask": "mimi: g++ Build"
+    "preLaunchTask": "C/C++: g++ build active file"
 }
