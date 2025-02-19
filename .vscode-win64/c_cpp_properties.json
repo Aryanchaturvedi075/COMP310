@@ -3,7 +3,6 @@
         {
             "name": "Win64",
             "includePath": [
-                "C:/Users/Public/tools/w64devkit/include",
                 "${workspaceFolder}/**"
             ],
             "defines": [
