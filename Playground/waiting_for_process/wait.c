@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 
@@ -12,13 +11,10 @@ int main(){
     int status;
     if (id != 0) wait(&status);
     
-    for (int8_t i = n; i < n+5; i++){
+    for (int i = n; i < n+5; i++){
         printf("%d prints: %d\n", getpid(), i);
         fflush(stdout);
     }
-
-
-
 
     return 0;
 }
