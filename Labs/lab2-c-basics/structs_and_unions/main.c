@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdint.h>
+
+typedef long double lld;
 
 struct HelloStruct {
-    int a;
+    int8_t a;
     float b;
     char c[16];
     char *d;
 };
 
 union Data {
-    int intVal;
+    int8_t intVal;
     float floatVal;
-    long double longDoubleVal;
+    lld longDoubleVal;
 };
 
 int main(void){
