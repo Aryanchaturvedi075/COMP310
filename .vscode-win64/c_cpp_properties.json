@@ -3,7 +3,12 @@
         {
             "name": "Win64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Users/Public/tools/w64devkit/include/c++",
+                "C:/Users/Public/tools/w64devkit/include/c++-bits",
+                "C:/Users/Public/tools/w64devkit/include/c++-include-bits",
+                "C:/Users/Public/tools/w64devkit/include/i686-w64-include",
+                "C:/Users/Public/tools/w64devkit/include/lib-gcc-i686-14.2.0-include"
             ],
             "defines": [
                 "_DEBUG",
