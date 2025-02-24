@@ -3,9 +3,9 @@
         {
             "name": "wsl: Intellisense C/C++", 
             "includePath": [
-                "/usr/include",
-                "/usr/include/x86_64-linux-gnu",
-                "/usr/include/x86_64-linux-gnu/c++/14",
+                "/usr/include/**",
+                "/usr/include/x86_64-linux-gnu/**",
+                "/usr/include/x86_64-linux-gnu/c++/14/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [
