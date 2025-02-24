@@ -4,16 +4,16 @@
             "name": "Win64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/Public/tools/w64devkit/include/c++",
-                "C:/Users/Public/tools/w64devkit/include/c++-bits",
-                "C:/Users/Public/tools/w64devkit/include/c++-include-bits",
-                "C:/Users/Public/tools/w64devkit/include/i686-w64-include",
-                "C:/Users/Public/tools/w64devkit/include/lib-gcc-i686-14.2.0-include"
+                "C:/Users/Public/tools/w64devkit/**",
+                "C:/Users/Public/tools/w64devkit/i686-w64-mingw32/include/**",
+                "C:/Users/Public/tools/w64devkit/lib/gcc/i686-w64-mingw32/14.2.0/include/**"
             ],
             "defines": [
                 "_DEBUG",
-                "WIN64"
+                "UNICODE",
+                "_UNICODE"
             ],
+            "windowsSdkVersion": "10.0.22621.0",
             "compilerPath": "C:/Users/Public/tools/w64devkit/bin/g++.exe",
             "cStandard": "c23",
             "cppStandard": "c++23",
