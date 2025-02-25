@@ -10,20 +10,20 @@ int fd1[2], fd2[2];
 // how function inlining looks in C
 static inline int fork_fail(){
     close(fd1[0]), close(fd1[1]), close(fd2[0]), close(fd2[1]);
-    perror("An error occured while forking\n");
+    perror("An error occured while forking");
     return 2;
 }
 
 // no passing by reference in C, so we pass by pointers here. In C++ we'd do (int (&fd)[2])
 static inline int write_fail(int (*fd)[2]){
     close((*fd)[1]);
-    perror("An error occured while writing to the pipe\n");
+    perror("An error occured while writing to the pipe");
     return 3;
 }
 
 static inline int read_fail(int (*fd)[2]){
     close((*fd)[0]);
-    perror("An error occured while reading from the pipe\n");
+    perror("An error occured while reading from the pipe");
     return 4;
 }
 
@@ -38,7 +38,12 @@ int main(){
     size_t len = sizeof(arr) / sizeof(arr[0]);
     
     // approach 2, create 2 pipes between processes -> better avoids race condition, and only the main process forks.
-    if(pipe(fd1) == -1 || pipe(fd2)) exit(EXIT_FAILURE);
+    if(pipe(fd1) == -1 || pipe(fd2) == -1) 
+    {
+        close(fd1[0]), close(fd1[1]), close(fd2[0]), close(fd2[1]);
+        perror("An error occured while creating the pipe");
+        exit(EXIT_FAILURE);
+    }
 
     uint16_t sum = 0, child1, child2;
     size_t start, end;
@@ -86,9 +91,8 @@ int main(){
             for(size_t i = start; i < end; i++) sum += arr[i];
             
             // Add all parts together and print result
-            printf("The sum of the array is %d\n\n", sum + child1 + child2);
+            printf("The sum of the array is %u\n\n", sum + child1 + child2);
         }
     }
-
     return EXIT_SUCCESS;
 }

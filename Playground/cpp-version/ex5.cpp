@@ -35,7 +35,12 @@ int main(){
     size_t len = sizeof(arr) / sizeof(arr[0]);
 
     // approach one, use 1 pipe to communicate between all 2 process -> can lead to race conditions
-    if (pipe(fd) == -1) exit(EXIT_FAILURE);
+    if (pipe(fd) == -1) 
+    {
+        close(fd[0]), close(fd[1]);
+        std::cerr << "An error occured while creating the pipe" << std::endl;
+        exit(EXIT_FAILURE);
+    }
 
     u_int16_t sum = 0, child, sub_child;
     size_t start, end;
@@ -80,6 +85,5 @@ int main(){
         close(fd[0]);
         std::cout << "The sum of the array is " << sum + child << "\n\n";
     }
-
     return EXIT_SUCCESS;
 }
