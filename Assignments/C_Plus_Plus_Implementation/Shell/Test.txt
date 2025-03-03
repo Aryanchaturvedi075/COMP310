@@ -1,0 +1,8 @@
+set x 10
+set name Bob
+print x
+print name
+set x Mary Jane
+set x Mary
+print x
+quit
