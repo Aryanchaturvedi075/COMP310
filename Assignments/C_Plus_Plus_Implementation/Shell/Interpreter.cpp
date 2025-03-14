@@ -246,7 +246,6 @@ int my_cd(const string& dirname)
     }
 }
 
-// In Interpreter.cpp
 int run(const string& command_with_args)
 {
 #ifdef _WIN32
