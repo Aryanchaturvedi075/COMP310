@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Interpreter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Interpreter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Shell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Interpreter.cpp",
+              "DocumentMoniker": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Interpreter.cpp",
+              "RelativeDocumentMoniker": "Interpreter.cpp",
+              "ToolTip": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Interpreter.cpp",
+              "RelativeToolTip": "Interpreter.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAF4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T22:53:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shell.cpp",
+              "DocumentMoniker": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Shell.cpp",
+              "RelativeDocumentMoniker": "Shell.cpp",
+              "ToolTip": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Shell.cpp",
+              "RelativeToolTip": "Shell.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T22:50:21.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.txt",
+              "DocumentMoniker": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Test.txt",
+              "RelativeDocumentMoniker": "Test.txt",
+              "ToolTip": "C:\\Users\\chatu\\source\\repos\\COMP310\\Assignments\\C_Plus_Plus_Implementation\\Shell\\Test.txt",
+              "RelativeToolTip": "Test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-02T22:48:22.292Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

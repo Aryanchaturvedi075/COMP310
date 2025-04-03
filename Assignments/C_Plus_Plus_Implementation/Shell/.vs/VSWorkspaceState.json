@@ -12,9 +12,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\out\\build"
+    ""
   ],
-  "SelectedNode": "\\Shell.cpp",
+  "SelectedNode": "\\Interpreter.cpp",
   "PreviewInSolutionExplorer": false
 }
