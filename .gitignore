@@ -10,5 +10,6 @@
 !*.cpp
 !.gitignore
 !*.sh
+!prog*
 
 build/
