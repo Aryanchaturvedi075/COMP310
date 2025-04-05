@@ -9,5 +9,6 @@
 !*.h
 !*.cpp
 !.gitignore
+!*.sh
 
 build/
