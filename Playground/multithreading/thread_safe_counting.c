@@ -6,7 +6,7 @@ int count;
 
 void *mythread(void *arg) {
     int j;
-    for (j = 0; j < 1000000; j++) 
+    for (j = 0; j < 1000000000; j++) 
     {
         pthread_mutex_lock(&count_mutex);
         count +=1;
