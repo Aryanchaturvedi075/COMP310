@@ -16,6 +16,7 @@ void * thread_func(void *arg){
         usleep(2000);
     }
     sem_post(&sem);
+    printf("Thread %d done running\n", tid_);
 }
 
 int main(){
