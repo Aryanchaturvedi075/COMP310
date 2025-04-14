@@ -40,8 +40,6 @@ int main(void) {
     counter_t ctr = {.val = 1000, .num_threads = 2};
     pthread_t t[ctr.num_threads];
     thread_arg_t args[ctr.num_threads];
-    for (int i = 0; i < ctr.num_threads; i++) 
-        args[i].id = i, args[i].ctr = &ctr;
     
     pthread_mutex_init(&ctr.m, NULL);
     pthread_cond_init(&ctr.c, NULL);
@@ -50,7 +48,7 @@ int main(void) {
 
     // Create 3 threads
     for (int i = 0; i < ctr.num_threads; i++){
-        // thread_arg_t args = { .id = i, .ctr = &ctr};
+        args[i].id = i, args[i].ctr = &ctr;
         pthread_create(&t[i], NULL, worker, &args[i]);
     }
 
